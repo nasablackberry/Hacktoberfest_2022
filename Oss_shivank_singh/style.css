@@ -1,0 +1,459 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(161, 159, 159);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #aaffd6;
+
+}
+
+.rootCont{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 218, 218);
+}
+
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 5px solid rgb(224, 218, 218); */
+    margin-bottom: 5px;
+}
+
+.childNav{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Readex+Pro:wght@500&display=swap');
+
+.teams{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.teams p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+.reacording{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.reacording img{
+    width: 25px;
+    height: 25px;
+}
+
+.reacording p{
+    font-size: 1.1rem;
+    font-weight: 510;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+/*  navbar ended */
+
+.middleSec{
+    background-color: rgb(248, 242, 242);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.middleSec .left,.right{
+    width: 23%;
+    height: 95%;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+}
+
+.middleSec .left{
+    align-items:flex-end;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.middleSec .mid{
+    width: 50%;
+    height: 95%;
+    
+}
+
+
+/* left styles */
+.left .film{
+    width: 75%;
+    height: 30%;
+    background-color: white;
+    padding: 7px;
+    border-radius: 3px;
+    margin-top: -5px;
+}
+.left .film img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* presenter sestion */
+
+.presenter{
+    width: 75%;
+    height: 20%;
+    background-color: white;
+    padding: 7px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.heading{
+    width: 100%;
+    height: 30%;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+
+.heading p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+.scroll{
+    width: 100%;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.scroll ul{
+    list-style: none;
+    padding-left: 7px;
+}
+
+.scroll ul li{
+   color: rgb(51, 49, 49);
+   margin: 10px;
+   font-size: 0.9rem;
+   font-family: 'Readex Pro', sans-serif;
+}
+
+/*  attendence scroll */
+.attendence{
+    width: 75%;
+    height: 35%;
+    background-color: white;
+    padding: 7px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.attendence .heading{
+    height: 20%;
+}
+
+/* middle section */
+
+.mid{
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.screen_present{
+    width: 100%;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.screen_present img{
+    width: 65%;
+    height: 95%;
+}
+
+.presenter_name{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-start;
+    /* background-color: red; */
+}
+
+.presenter_name p{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Readex Pro', sans-serif;
+    margin-left: 20px;
+}
+
+/*  right section */
+
+.middleSec .right{
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    overflow-y: hidden;
+}
+
+.middleSec .right .childright{
+    width: 93%;
+    height: 98%;
+    /* background-color: white; */
+    margin-left: 15px;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+
+.person{
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.person .childPerson{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(58, 59, 58, 0.335);
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.person .childPerson .icon{
+    width: 100%;
+    height: 85%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.person .childPerson .icon .circle{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.person .childPerson .icon .circle p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+
+
+
+.person .childPerson .mic{
+    width: 100%;
+    height: 15%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.person .childPerson .mic img{
+    width: 11px;
+    height: 16px;
+    margin-bottom: 10px;
+}
+
+.person:hover .childPerson{
+    background-color: #aaffd6;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/*  mid section ended */
+
+.footer{
+    width: 99%;
+    height: 13vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.leftSec{
+    width: 70%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSec .functions{
+    width: 35%;
+    height: 100%;
+    /* background-color: red; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftSec .functions .icons{
+    width: 18%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgb(187, 179, 179);
+}
+
+.leftSec .functions .icons:hover{
+    background-color: #aaffd6;
+    transition: all 0.1s ease-out;
+
+}
+
+.leftSec .name{
+    width: 30%;
+    height: 100%;
+    margin-right: 100px;
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.leftSec .name p{
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+.leftSec .name p small{
+    color: rgb(46, 43, 43);
+}
+
+#ic1{
+    width: 28px;
+    height: 17px;
+}
+
+#ic2{
+    width: 15px;
+    height: 20px;
+}
+
+
+#ic3{
+    width: 20px;
+    height: 20px;
+}
+
+#ic4{
+    width: 20px;
+    height: 20px;
+}
+
+
+.rightSec{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.leave{
+    width: 55%;
+    height: 55%;
+    background-color: #FF2C2C;
+    border-radius: 10px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.leave:hover{
+    background-color: red;
+    transition: all 0.1s linear;
+}
+
+
+
+.leave .icon{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.leave .icon img{
+    width: 30px;
+}
+
+.leave .par{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 8px;
+}
+
