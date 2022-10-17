@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .re{
+        display: flex;
+        /* align-items: center; */
+         justify-content: center; 
+        padding: 20px;
+        gap: 5px;
+        border: grey dotted;
+        height: 45vh;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        /*flex-wrap: wrap-reverse;*/
+        top: 40px;
+    }
+
+    .b{
+        width: 100px;
+        height: 100px;
+        order: 2;
+        align-self:center;
+        /*flex-grow: 3;*/
+        
+        /* position: absolute; */
+
+        background-color: blue;
+        margin: 40px;
+    }
+    .hi{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: green;
+    }
+    .op{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: red;
+
+    }
+</style>
+<body>
+    <div class="re">
+        <div class="b"></div>
+        <div class="hi"></div>
+        <div class="op"></div>
+    </div>  
+</body>
+</html>
