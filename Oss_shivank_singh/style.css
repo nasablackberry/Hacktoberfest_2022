@@ -65,7 +65,7 @@
 }
 
 
-.reacording{
+.recording{
     /* background-color: red; */
     display: flex;
     align-items: center;
@@ -73,12 +73,12 @@
     justify-content: space-around;
 }
 
-.reacording img{
+.recording img{
     width: 25px;
     height: 25px;
 }
 
-.reacording p{
+.recording p{
     font-size: 1.1rem;
     font-weight: 510;
     font-family: 'Readex Pro', sans-serif;
