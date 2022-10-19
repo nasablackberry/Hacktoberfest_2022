@@ -5,12 +5,12 @@
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 7px;
 
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #e1adad;
     border-radius: 10px;
 }
 
@@ -20,17 +20,17 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #aaffd6;
+    background: #7fdaae;
 
 }
 
 .rootCont{
-    width: 100vw;
-    height: 100vh;
+    width: 102vw;
+    height: 102vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(224, 218, 218);
+    background-color: rgb(245, 237, 237);
 }
 
 .navbar{
@@ -44,8 +44,8 @@
 }
 
 .childNav{
-    width: 97%;
-    height: 100%;
+    width: 100%;
+    height: 99%;
     display: flex;
     justify-content: space-between;
 }
@@ -462,5 +462,6 @@
     margin-left: 600px;
     background-color: #d1d1d1;
     height: 50%;
+    font-weight: bold;
 }
 
