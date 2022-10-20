@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Readex+Pro:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -5,28 +6,26 @@
 }
 
 ::-webkit-scrollbar {
-    width: 9px;
-
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
     background: #e1adad;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(165, 156, 156);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #7fdaae;
-
+    background: #525252;
 }
 
 .rootCont{
     width: 105vw;
-    height: 106vh;
+    height: 105vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +38,6 @@
     background-color: white;
     display: flex;
     justify-content: center;
-    /* border-bottom: 5px solid rgb(224, 218, 218); */
     margin-bottom: 5px;
 }
 
@@ -50,10 +48,8 @@
     justify-content: space-between;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Readex+Pro:wght@500&display=swap');
 
 .teams{
-    /* background-color: red; */
     display: flex;
     align-items: center;
 }
@@ -66,7 +62,6 @@
 
 
 .recording{
-    /* background-color: red; */
     display: flex;
     align-items: center;
     width: 15%;
@@ -99,7 +94,6 @@
     width: 25%;
     height: 95%;
     display: flex;
-    /* background-color: red; */
     flex-direction: column;
 }
 
@@ -156,7 +150,6 @@
     font-weight: 700;
     font-family: 'Readex Pro', sans-serif;
 }
-
 
 .scroll{
     width: 100%;
@@ -221,7 +214,6 @@
     height: 30%;
     display: flex;
     align-items: flex-start;
-    /* background-color: red; */
 }
 
 .presenter_name p{
@@ -235,7 +227,6 @@
 
 .middleSec .right{
     height: 100%;
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -246,7 +237,6 @@
 .middleSec .right .childright{
     width: 93%;
     height: 98%;
-    /* background-color: white; */
     margin-left: 15px;
     overflow-y: scroll;
     border-radius: 5px;
@@ -274,7 +264,6 @@
 .person .childPerson .icon{
     width: 100%;
     height: 85%;
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,10 +284,6 @@
     font-weight: 500;
     font-family: 'Readex Pro', sans-serif;
 }
-
-
-
-
 
 .person .childPerson .mic{
     width: 100%;
@@ -335,7 +320,6 @@
 .leftSec{
     width: 70%;
     height: 100%;
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -344,7 +328,6 @@
 .leftSec .functions{
     width: 35%;
     height: 100%;
-    /* background-color: red; */
     margin-left: 20px;
     display: flex;
     justify-content: space-around;
@@ -359,12 +342,12 @@
     align-items: center;
     border-radius: 8px;
     background-color: rgb(187, 179, 179);
+    transition: all 0.4s ease-out;
+
 }
 
 .leftSec .functions .icons:hover{
     background-color: #22a1cb;
-    transition: all 0.1s ease-out;
-
 }
 
 .leftSec .name{
@@ -429,10 +412,11 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all 0.1s linear;
 }
 .leave:hover{
     background-color: red;
-    transition: all 0.1s linear;
+    transform: scale(0.98);
 }
 
 
@@ -464,4 +448,3 @@
     height: 50%;
     font-weight: bold;
 }
-
