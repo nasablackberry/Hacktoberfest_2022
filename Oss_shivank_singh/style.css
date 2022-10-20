@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 9px;
 
 }
 
@@ -15,7 +15,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(161, 159, 159);
+    background: rgb(165, 156, 156);
     border-radius: 10px;
 }
 
@@ -25,12 +25,12 @@
 }
 
 .rootCont{
-    width: 102vw;
-    height: 102vh;
+    width: 105vw;
+    height: 106vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(245, 237, 237);
+    background-color: rgb(245, 238, 239);
 }
 
 .navbar{
@@ -59,8 +59,8 @@
 }
 
 .teams p{
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 800;
     font-family: 'Readex Pro', sans-serif;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .recording p{
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 510;
     font-family: 'Readex Pro', sans-serif;
 }
@@ -96,7 +96,7 @@
 }
 
 .middleSec .left,.right{
-    width: 23%;
+    width: 25%;
     height: 95%;
     display: flex;
     /* background-color: red; */
@@ -160,7 +160,7 @@
 
 .scroll{
     width: 100%;
-    height: 70%;
+    height: 75%;
     overflow-y: scroll;
 }
 
