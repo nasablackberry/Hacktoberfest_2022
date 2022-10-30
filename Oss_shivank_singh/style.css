@@ -52,6 +52,16 @@
 .teams{
     display: flex;
     align-items: center;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.teams:hover{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px;
+    color:#FF2C2C
 }
 
 .teams p{
